@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapsible Sidebar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <div class="logo-container">
+                        <div class="logo-wrapper">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23f0f0f0' stroke='%23ccc' stroke-width='2' stroke-dasharray='4,2'/%3E%3Ctext x='16' y='20' text-anchor='middle' font-family='Arial' font-size='10' fill='%23999'%3E📷%3C/text%3E%3C/svg%3E" alt="Click to upload logo" class="logo-img" id="logoImg">
+                            <button class="clear-logo-btn" id="clearLogoBtn" title="Clear logo">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                        <div class="upload-hint">Click to upload</div>
+                    </div>
+                    <span class="logo-text">MyApp</span>
+                </div>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-home"></i>
+                            <span class="nav-text">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-user"></i>
+                            <span class="nav-text">Profile</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-chart-bar"></i>
+                            <span class="nav-text">Analytics</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-cog"></i>
+                            <span class="nav-text">Settings</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-envelope"></i>
+                            <span class="nav-text">Messages</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <button class="toggle-btn" id="toggleBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content" id="mainContent">
+            <header class="main-header">
+                <button class="mobile-toggle-btn" id="mobileToggleBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <h1>Dashboard</h1>
+            </header>
+            
+            <div class="content">
+                <div class="card">
+                    <h2>Welcome to your Dashboard</h2>
+                    <p>Features implemented:</p>
+                    <ul>
+                        <li>✓ Smooth collapsible animation</li>
+                        <li>✓ Logo placeholder at the top</li>
+                        <li>✓ Navigation links with icons</li>
+                        <li>✓ Toggle button functionality</li>
+                        <li>✓ Responsive mobile design</li>
+                    </ul>
+                </div>
+                
+                <div class="card">
+                    <h3>Sample Content</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                
+                <div class="card">
+                    <h3>Another Card</h3>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
