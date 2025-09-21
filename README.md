@@ -29,8 +29,8 @@ This project provides a fully functional collapsible sidebar that can be used in
 ## 📁 File Structure
 
 project-root/
-│── index.html
-│── styles.css
-│── script.js
-│── /assets
-└── (default logo, icons, etc.)
+- │── index.html
+- │── styles.css
+- │── script.js
+- │── /assets
+- └── (default logo, icons, etc.)
