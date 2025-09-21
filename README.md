@@ -4,11 +4,6 @@ A modern, responsive **collapsible sidebar component** built with vanilla **HTML
 
 ---
 
-## 📋 Project Overview
-This project provides a fully functional collapsible sidebar that can be used in modern web applications. It includes customizable navigation, logo management, responsive behaviors, and user-friendly interactions designed for both desktop and mobile devices.
-
----
-
 ## ✨ Features
 
 ### Core Functionality
