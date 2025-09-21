@@ -1,4 +1,4 @@
-# 🚀 Collapsible Sidebar (Task 1 – Elevvo Pathways Web Development Internship Program)
+# Collapsible Sidebar (Task 1 – Elevvo Pathways Web Development Internship Program)
 
 A modern, responsive **collapsible sidebar component** built with vanilla **HTML, CSS, and JavaScript**. It features smooth animations, logo upload functionality, mobile-first responsive design, and advanced usability enhancements.
 
